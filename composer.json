@@ -1,5 +1,5 @@
 {
-    "name": "lysice/laravel-xlswriter",
+    "name": "lysice/laravel-xlswriter-fix",
     "description": "an excel export tool for laravel based on php-xlswriter",
     "license": "MIT",
     "authors": [
