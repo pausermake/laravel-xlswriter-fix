@@ -335,24 +335,32 @@ class XlsWriter {
     }
 
     /**
-     * setPrintedPortrait
+     * setPortrait
      * @return $this
      * @throws Exception
      */
     private function setPortrait()
     {
-        $this->excel->setPrintedPortrait();
+        if(method_exists($this,'setPrintedPortrait')){
+            $this->excel->setPrintedPortrait();
+        }else{
+            $this->excel->setPortrait();
+        }
         return $this;
     }
 
     /**
-     * setPrintedLandscape
+     * setLandscape
      * @return $this
      * @throws Exception
      */
     private function setLandscape()
     {
-        $this->excel->setPrintedLandscape();
+        if(method_exists($this,'setPrintedLandscape')){
+            $this->excel->setPrintedLandscape();
+        }else{
+            $this->excel->setLandscape();
+        }
         return $this;
     }
 

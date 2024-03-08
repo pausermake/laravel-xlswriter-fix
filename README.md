@@ -1,3 +1,7 @@
+
+由于原作者没有兼容高版本的问题，这里fork了一份来自己使用
+[原作者的项目地址](https://github.com/Lysice/laravel-xlswriter)
+
 ## Laravel-xlswriter 一款基于xlswriter的laravel扩展包
 [![Latest Stable Version](https://poser.pugx.org/Lysice/laravel-xlswriter/v/stable)](https://packagist.org/packages/Lysice/laravel-xlswriter)
 [![Total Downloads](https://poser.pugx.org/Lysice/laravel-xlswriter/downloads)](https://packagist.org/packages/Lysice/laravel-xlswriter)
